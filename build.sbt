@@ -20,6 +20,8 @@ libraryDependencies ++= {
     "ch.qos.logback"    %  "logback-classic"         % "1.1.7",
     "com.typesafe.akka" %% "akka-stream"             % akkaV,
 
+    "com.lightbend.akka" %% "akka-stream-alpakka-sqs" % "0.16",
+
     "commons-io" % "commons-io" % "2.5",
 
     "org.specs2" % "specs2_2.12" % "2.4.17" % Test,
